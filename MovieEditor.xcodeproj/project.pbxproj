@@ -7,38 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBD7C35F185286B8002989F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7C35E185286B8002989F8 /* Foundation.framework */; };
-		EBD7C362185286B8002989F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7C361185286B8002989F8 /* main.m */; };
-		EBD7C366185286B9002989F8 /* MovieEditor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBD7C365185286B9002989F8 /* MovieEditor.1 */; };
+		EB5335691852888800398866 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5335681852888800398866 /* AVFoundation.framework */; };
+		EB53356D18552B1500398866 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB53356C18552B1500398866 /* CoreMedia.framework */; };
+		EBD7C37218528722002989F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7C37118528722002989F8 /* Cocoa.framework */; };
+		EBD7C37C18528722002989F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBD7C37A18528722002989F8 /* InfoPlist.strings */; };
+		EBD7C37E18528722002989F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7C37D18528722002989F8 /* main.m */; };
+		EBD7C38218528722002989F8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EBD7C38018528722002989F8 /* Credits.rtf */; };
+		EBD7C38518528722002989F8 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7C38418528722002989F8 /* Document.m */; };
+		EBD7C38818528722002989F8 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD7C38618528722002989F8 /* Document.xib */; };
+		EBD7C38B18528723002989F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD7C38918528723002989F8 /* MainMenu.xib */; };
+		EBD7C38D18528723002989F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD7C38C18528723002989F8 /* Images.xcassets */; };
+		EBD7C39418528723002989F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7C39318528723002989F8 /* XCTest.framework */; };
+		EBD7C39518528723002989F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7C37118528722002989F8 /* Cocoa.framework */; };
+		EBD7C39D18528723002989F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBD7C39B18528723002989F8 /* InfoPlist.strings */; };
+		EBD7C39F18528723002989F8 /* MovieEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7C39E18528723002989F8 /* MovieEditTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		EBD7C359185286B8002989F8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				EBD7C366185286B9002989F8 /* MovieEditor.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
+/* Begin PBXContainerItemProxy section */
+		EBD7C39618528723002989F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD7C353185286B8002989F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD7C36F18528722002989F8;
+			remoteInfo = MovieEdit;
 		};
-/* End PBXCopyFilesBuildPhase section */
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EBD7C35B185286B8002989F8 /* MovieEditor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MovieEditor; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5335681852888800398866 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EB53356C18552B1500398866 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		EBD7C35E185286B8002989F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EBD7C361185286B8002989F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EBD7C364185286B8002989F8 /* MovieEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieEditor-Prefix.pch"; sourceTree = "<group>"; };
-		EBD7C365185286B9002989F8 /* MovieEditor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MovieEditor.1; sourceTree = "<group>"; };
+		EBD7C37018528722002989F8 /* MovieEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD7C37118528722002989F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EBD7C37418528722002989F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EBD7C37518528722002989F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EBD7C37618528722002989F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBD7C37918528722002989F8 /* MovieEdit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieEdit-Info.plist"; sourceTree = "<group>"; };
+		EBD7C37B18528722002989F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBD7C37D18528722002989F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD7C37F18528722002989F8 /* MovieEdit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieEdit-Prefix.pch"; sourceTree = "<group>"; };
+		EBD7C38118528722002989F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EBD7C38318528722002989F8 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		EBD7C38418528722002989F8 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		EBD7C38718528722002989F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		EBD7C38A18528723002989F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EBD7C38C18528723002989F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBD7C39218528723002989F8 /* MovieEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD7C39318528723002989F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBD7C39A18528723002989F8 /* MovieEditTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieEditTests-Info.plist"; sourceTree = "<group>"; };
+		EBD7C39C18528723002989F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBD7C39E18528723002989F8 /* MovieEditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieEditTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EBD7C358185286B8002989F8 /* Frameworks */ = {
+		EBD7C36D18528722002989F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD7C35F185286B8002989F8 /* Foundation.framework in Frameworks */,
+				EB53356D18552B1500398866 /* CoreMedia.framework in Frameworks */,
+				EB5335691852888800398866 /* AVFoundation.framework in Frameworks */,
+				EBD7C37218528722002989F8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD7C38F18528723002989F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7C39518528723002989F8 /* Cocoa.framework in Frameworks */,
+				EBD7C39418528723002989F8 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +85,8 @@
 		EBD7C352185286B8002989F8 = {
 			isa = PBXGroup;
 			children = (
-				EBD7C360185286B8002989F8 /* MovieEditor */,
+				EBD7C37718528722002989F8 /* MovieEdit */,
+				EBD7C39818528723002989F8 /* MovieEditTests */,
 				EBD7C35D185286B8002989F8 /* Frameworks */,
 				EBD7C35C185286B8002989F8 /* Products */,
 			);
@@ -57,7 +95,8 @@
 		EBD7C35C185286B8002989F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBD7C35B185286B8002989F8 /* MovieEditor */,
+				EBD7C37018528722002989F8 /* MovieEdit.app */,
+				EBD7C39218528723002989F8 /* MovieEditTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,25 +104,65 @@
 		EBD7C35D185286B8002989F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB53356C18552B1500398866 /* CoreMedia.framework */,
+				EB5335681852888800398866 /* AVFoundation.framework */,
 				EBD7C35E185286B8002989F8 /* Foundation.framework */,
+				EBD7C37118528722002989F8 /* Cocoa.framework */,
+				EBD7C39318528723002989F8 /* XCTest.framework */,
+				EBD7C37318528722002989F8 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBD7C360185286B8002989F8 /* MovieEditor */ = {
+		EBD7C37318528722002989F8 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBD7C361185286B8002989F8 /* main.m */,
-				EBD7C365185286B9002989F8 /* MovieEditor.1 */,
-				EBD7C363185286B8002989F8 /* Supporting Files */,
+				EBD7C37418528722002989F8 /* AppKit.framework */,
+				EBD7C37518528722002989F8 /* CoreData.framework */,
+				EBD7C37618528722002989F8 /* Foundation.framework */,
 			);
-			path = MovieEditor;
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		EBD7C363185286B8002989F8 /* Supporting Files */ = {
+		EBD7C37718528722002989F8 /* MovieEdit */ = {
 			isa = PBXGroup;
 			children = (
-				EBD7C364185286B8002989F8 /* MovieEditor-Prefix.pch */,
+				EBD7C38318528722002989F8 /* Document.h */,
+				EBD7C38418528722002989F8 /* Document.m */,
+				EBD7C38618528722002989F8 /* Document.xib */,
+				EBD7C38918528723002989F8 /* MainMenu.xib */,
+				EBD7C38C18528723002989F8 /* Images.xcassets */,
+				EBD7C37818528722002989F8 /* Supporting Files */,
+			);
+			path = MovieEdit;
+			sourceTree = "<group>";
+		};
+		EBD7C37818528722002989F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7C37918528722002989F8 /* MovieEdit-Info.plist */,
+				EBD7C37A18528722002989F8 /* InfoPlist.strings */,
+				EBD7C37D18528722002989F8 /* main.m */,
+				EBD7C37F18528722002989F8 /* MovieEdit-Prefix.pch */,
+				EBD7C38018528722002989F8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD7C39818528723002989F8 /* MovieEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7C39E18528723002989F8 /* MovieEditTests.m */,
+				EBD7C39918528723002989F8 /* Supporting Files */,
+			);
+			path = MovieEditTests;
+			sourceTree = "<group>";
+		};
+		EBD7C39918528723002989F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7C39A18528723002989F8 /* MovieEditTests-Info.plist */,
+				EBD7C39B18528723002989F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,22 +170,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EBD7C35A185286B8002989F8 /* MovieEditor */ = {
+		EBD7C36F18528722002989F8 /* MovieEdit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBD7C369185286B9002989F8 /* Build configuration list for PBXNativeTarget "MovieEditor" */;
+			buildConfigurationList = EBD7C3A018528723002989F8 /* Build configuration list for PBXNativeTarget "MovieEdit" */;
 			buildPhases = (
-				EBD7C357185286B8002989F8 /* Sources */,
-				EBD7C358185286B8002989F8 /* Frameworks */,
-				EBD7C359185286B8002989F8 /* CopyFiles */,
+				EBD7C36C18528722002989F8 /* Sources */,
+				EBD7C36D18528722002989F8 /* Frameworks */,
+				EBD7C36E18528722002989F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MovieEditor;
-			productName = MovieEditor;
-			productReference = EBD7C35B185286B8002989F8 /* MovieEditor */;
-			productType = "com.apple.product-type.tool";
+			name = MovieEdit;
+			productName = MovieEdit;
+			productReference = EBD7C37018528722002989F8 /* MovieEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD7C39118528723002989F8 /* MovieEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD7C3A318528723002989F8 /* Build configuration list for PBXNativeTarget "MovieEditTests" */;
+			buildPhases = (
+				EBD7C38E18528723002989F8 /* Sources */,
+				EBD7C38F18528723002989F8 /* Frameworks */,
+				EBD7C39018528723002989F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD7C39718528723002989F8 /* PBXTargetDependency */,
+			);
+			name = MovieEditTests;
+			productName = MovieEditTests;
+			productReference = EBD7C39218528723002989F8 /* MovieEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,6 +213,18 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Basuke;
+				TargetAttributes = {
+					EBD7C36F18528722002989F8 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					EBD7C39118528723002989F8 = {
+						TestTargetID = EBD7C36F18528722002989F8;
+					};
+				};
 			};
 			buildConfigurationList = EBD7C356185286B8002989F8 /* Build configuration list for PBXProject "MovieEditor" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -123,27 +232,112 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = EBD7C352185286B8002989F8;
 			productRefGroup = EBD7C35C185286B8002989F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBD7C35A185286B8002989F8 /* MovieEditor */,
+				EBD7C36F18528722002989F8 /* MovieEdit */,
+				EBD7C39118528723002989F8 /* MovieEditTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		EBD7C36E18528722002989F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7C38818528722002989F8 /* Document.xib in Resources */,
+				EBD7C38D18528723002989F8 /* Images.xcassets in Resources */,
+				EBD7C37C18528722002989F8 /* InfoPlist.strings in Resources */,
+				EBD7C38218528722002989F8 /* Credits.rtf in Resources */,
+				EBD7C38B18528723002989F8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD7C39018528723002989F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7C39D18528723002989F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		EBD7C357185286B8002989F8 /* Sources */ = {
+		EBD7C36C18528722002989F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD7C362185286B8002989F8 /* main.m in Sources */,
+				EBD7C38518528722002989F8 /* Document.m in Sources */,
+				EBD7C37E18528722002989F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD7C38E18528723002989F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7C39F18528723002989F8 /* MovieEditTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD7C39718528723002989F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD7C36F18528722002989F8 /* MovieEdit */;
+			targetProxy = EBD7C39618528723002989F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD7C37A18528722002989F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7C37B18528722002989F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBD7C38018528722002989F8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7C38118528722002989F8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EBD7C38618528722002989F8 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7C38718528722002989F8 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		EBD7C38918528723002989F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7C38A18528723002989F8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EBD7C39B18528723002989F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7C39C18528723002989F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EBD7C367185286B9002989F8 /* Debug */ = {
@@ -214,21 +408,75 @@
 			};
 			name = Release;
 		};
-		EBD7C36A185286B9002989F8 /* Debug */ = {
+		EBD7C3A118528723002989F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MovieEditor/MovieEditor-Prefix.pch";
+				GCC_PREFIX_HEADER = "MovieEdit/MovieEdit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MovieEdit/MovieEdit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		EBD7C36B185286B9002989F8 /* Release */ = {
+		EBD7C3A218528723002989F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MovieEditor/MovieEditor-Prefix.pch";
+				GCC_PREFIX_HEADER = "MovieEdit/MovieEdit-Prefix.pch";
+				INFOPLIST_FILE = "MovieEdit/MovieEdit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBD7C3A418528723002989F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MovieEdit.app/Contents/MacOS/MovieEdit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieEdit/MovieEdit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MovieEditTests/MovieEditTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBD7C3A518528723002989F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MovieEdit.app/Contents/MacOS/MovieEdit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovieEdit/MovieEdit-Prefix.pch";
+				INFOPLIST_FILE = "MovieEditTests/MovieEditTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -244,13 +492,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBD7C369185286B9002989F8 /* Build configuration list for PBXNativeTarget "MovieEditor" */ = {
+		EBD7C3A018528723002989F8 /* Build configuration list for PBXNativeTarget "MovieEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBD7C36A185286B9002989F8 /* Debug */,
-				EBD7C36B185286B9002989F8 /* Release */,
+				EBD7C3A118528723002989F8 /* Debug */,
+				EBD7C3A218528723002989F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD7C3A318528723002989F8 /* Build configuration list for PBXNativeTarget "MovieEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7C3A418528723002989F8 /* Debug */,
+				EBD7C3A518528723002989F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
